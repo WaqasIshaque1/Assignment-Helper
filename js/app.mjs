@@ -194,7 +194,7 @@ const EVENT_MAP = {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
-                        'Authorization': `Bearer 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` // Replace with your API key
+                        'Authorization': `Bearer YOUR_API_KEY` // Replace with your API key
                     },
                     body: JSON.stringify({
                         model: 'deepseek/deepseek-chat:free',
