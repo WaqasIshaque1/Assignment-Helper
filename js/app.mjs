@@ -194,10 +194,10 @@ const EVENT_MAP = {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
-                        'Authorization': `Bearer YOUR_API_KEY` // Replace with your API key
+                        'Authorization': `Bearer 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` // Replace with your API key
                     },
                     body: JSON.stringify({
-                        model: 'openai/o1-pro',
+                        model: 'deepseek/deepseek-chat:free',
                         messages: [{
                             role: 'user',
                             content: `Please rewrite the following text while maintaining its core meaning, ensuring the output is natural, fluent, and human-like. Use varied sentence structures and vocabulary where appropriate, while preserving the original intent and key information: ${input.value}`
